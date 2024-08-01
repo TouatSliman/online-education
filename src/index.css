@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bubble-direction: 100px;
+}
+html,
+body {
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0;
+  animation: bubbleAnimation linear;
+}
+@keyframes bubbleAnimation {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 160vh;
+    left: var(--bubble-direction);
+  }
+}
