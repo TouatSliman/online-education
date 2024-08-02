@@ -1,3 +1,4 @@
+import logo from "/icon.svg";
 const Nav = () => {
   // Add navigation scroll effect
   window.addEventListener("scroll", () => {
@@ -26,11 +27,7 @@ const Nav = () => {
           <p className=" text-gray-500 text-xs sm:text-lg">
             معرفة بلا حدود للتعليم والتكوين عن بعد
           </p>
-          <img
-            src="http://inscriptic.onefd.edu.dz/assetsse/images/logo.png"
-            alt="logo"
-            className="w-11 h-11 p-1"
-          />
+          <img src={logo} alt="logo" className="w-11 h-11 p-1" />
         </a>
       </nav>
     </>

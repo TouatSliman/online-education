@@ -2,6 +2,7 @@ import { document } from "postcss";
 import { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+import points from "../assets/img/points.svg";
 
 const Facts = () => {
   const embedId = "6Bzqnxt_718?si=0yM4_R_h8AGGBOeP";
@@ -77,18 +78,14 @@ const Facts = () => {
           </div>
           <div className="w-full flex justify-start items-center relative sm:w-5/12">
             <div className="">
-              <img
-                src="http://inscriptic.onefd.edu.dz/assetsse/images/dots.svg"
-                alt="dots"
-                className="w-3/4 "
-              />
+              <img src={points} alt="points" className="w-3/4 mt-14" />
             </div>
             <div className="absolute h-full w-full flex justify-start items-center">
               <div className=".video">
                 <iframe
                   id="youtubeVid"
                   src={`https://www.youtube.com/embed/${embedId}`}
-                  className="h-[11rem] w-[19rem] mb-8 ml-3 sm:w-[26rem] sm:h-[15rem] sm:mb-12 sm:ml-10 rounded-xl"
+                  className="h-[11rem] w-[19rem] mb-8 ml-3 sm:w-full sm:h-[12rem] sm:mb-12 sm:ml-10 rounded-xl"
                 ></iframe>
               </div>
             </div>

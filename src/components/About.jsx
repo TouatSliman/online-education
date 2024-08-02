@@ -1,15 +1,12 @@
 import img from "../assets/img/img-1.png";
+import shape from "../assets/img/shape.svg";
 
 const About = () => {
   return (
     <>
       <section className="pt-10 flex justify-center">
         <div className="w-full h-full absolute flex justify-end items-center">
-          <img
-            src="http://inscriptic.onefd.edu.dz/assetsse/images/about-shape-1.svg"
-            alt="shape"
-            className=""
-          />
+          <img src={shape} alt="shape" className="" />
         </div>
 
         <div className="flex justify-between flex-wrap w-10/12 z-10">

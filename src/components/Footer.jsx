@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <footer className=" w-screen h-[50rem] bg-footer-bg bg-cover bg-center bg-no-repeat mt-40">
         <div className="flex flex-col justify-center items-center w-full h-full text-white text-center">
-          <div className="bg-white w-9/12 sm:w-10/12 flex flex-col items-center text-gray-500 text-sm rounded-2xl shadow-2xl shadow-black">
+          <div className="bg-white z-20 w-9/12 sm:w-10/12 flex flex-col items-center text-gray-500 text-sm rounded-2xl shadow-2xl shadow-black">
             <h3 className="text-2xl font-bold mt-32 ">للتواصل معنا</h3>
             <hr className="w-36 border-2 border-black border-solid my-3 mb-20" />
             <div className="mb-32 w-full flex flex-wrap justify-center items-center">

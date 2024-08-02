@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import laptop from "../assets/img/laptop.png";
 
 const Header = () => {
   function createBubble() {
@@ -64,8 +65,8 @@ const Header = () => {
           <Fade duration={1000} triggerOnce>
             <img
               className=" w-[380px] my-12 sm:w-[650px]"
-              src="http://inscriptic.onefd.edu.dz/assetsse/images/header-hero.png"
-              alt="pc"
+              src={laptop}
+              alt="laptop"
             />
           </Fade>
         </div>
